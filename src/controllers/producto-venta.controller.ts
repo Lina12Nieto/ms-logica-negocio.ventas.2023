@@ -3,9 +3,9 @@ import {
   CountSchema,
   Filter,
   repository,
-  Where,
+  Where
 } from '@loopback/repository';
-  import {
+import {
   del,
   get,
   getModelSchemaRef,
@@ -13,12 +13,12 @@ import {
   param,
   patch,
   post,
-  requestBody,
+  requestBody
 } from '@loopback/rest';
 import {
-Producto,
-VentaProducto,
-Venta,
+  Producto,
+  /*VentaProducto,*/
+  Venta
 } from '../models';
 import {ProductoRepository} from '../repositories';
 
